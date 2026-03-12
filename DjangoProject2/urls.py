@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('lab3/', include('lab3_app.urls')), # Усі посилання lab3/ підуть у нашу аплікуху
+    path('lab3/', include('lab3.urls')), # Усі посилання lab3/ підуть у нашу аплікуху
 ]
